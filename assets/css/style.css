@@ -1,0 +1,155 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    margin: 20px 20px 100px 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.timer {
+    margin-left: auto;
+}
+
+#high-score {
+    text-decoration: none;
+    color: mediumorchid;
+    cursor: pointer;
+}
+
+.start-page {
+    text-align: center;
+}
+
+.start-title {
+    font-size: 3em;
+}
+
+.instructions {
+    font-size: 1.6em;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: indigo;
+    color: white;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: mediumorchid;
+}
+
+#game-screen {
+    width: 800px;
+    margin: 0 auto;
+    display: none;
+}
+
+.question {
+    font-size: 3em;
+}
+
+.answers {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li .btn {
+    width: 250px;
+    text-align: left;
+}
+
+.correct-wrong {
+    border-top: solid 1px;
+    font-style: italic;
+    color: gray;
+    font-size: 1.6em;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#all-done {
+    display: none;
+}
+
+.done-title {
+    font-size: 3em;
+    margin: 0 auto;
+    width: 775px;
+}
+
+#initals-form {
+    margin: 0 auto;
+    width: 775px;
+    display: flex;
+    align-items: center;
+}
+
+.initals {
+    font-size: 1.6em;
+}
+
+#initals {
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+}
+
+input, select, textarea {
+    font-size: 125%;
+}
+
+.score {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.high-score-item {
+    list-style: none;
+    font-size: 1.3em;
+    margin-left: 460px;
+    width: 600px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* alternating background color for scores */
+.high-score-item:nth-child(even) {
+    background-color: lightgray;
+}
+
+.high-score-item:nth-child(odd) {
+    background-color: plum;
+}
+
+.btn-submit {
+    line-height: 35px;
+}
+
+#high-score-page {
+    display: none;
+}
+
+#high-score-page div.buttons {
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+#go-back {
+    margin-right: 10px;
+}
