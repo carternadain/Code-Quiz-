@@ -13,7 +13,7 @@ var clearBtn = document.getElementById("clear-btn");
 var highScoreList = document.getElementById("high-score-list");
 var currentQuestion;
 var timerInterval;
-var startTime = 75;
+var startTime = 70;
 var timeRemaining;
 var scores = JSON.parse(localStorage.getItem("scores")) || [];
 
