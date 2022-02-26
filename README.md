@@ -6,15 +6,16 @@ This repository encapsulates code created to quiz you on your skills in becoming
 
 
 
-# Screenshot of webpage
-![Screen Shot of the Quiz starter page](/assets/images/
+# Screenshot of application in use
+![Screen Shot of the code quiz in use](/assets/images/code-quiz.png)
 
-# Screenshot of webpage resized
-![Screen Shot of the Portfolio Resized for mobile](/assets/images/
+# Screenshot of webpage 
+![Screen Shot of the starter page](/assets/images/starter-page.png)
 
 
 # Webpage Link 
-
+https://carternadain.github.io/Code-Quiz-/
 
 
 # Repository Link
+https://github.com/carternadain/Code-Quiz- 
