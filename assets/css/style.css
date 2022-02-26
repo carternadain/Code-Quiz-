@@ -14,7 +14,7 @@ header {
 
 #high-score {
     text-decoration: none;
-    color: mediumorchid;
+    color: black;
     cursor: pointer;
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 .btn {
-    background-color: indigo;
+    background-color: black;
     color: white;
     padding: 0 25px;
     line-height: 45px;
@@ -46,7 +46,7 @@ header {
 }
 
 .btn:hover {
-    background-color: mediumorchid;
+    background-color: black;
 }
 
 #game-screen {
@@ -134,7 +134,7 @@ input, select, textarea {
 }
 
 .high-score-item:nth-child(odd) {
-    background-color: plum;
+    background-color: rgb(248, 244, 244);
 }
 
 .btn-submit {
