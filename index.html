@@ -5,46 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+
+  
     <title>Code Quiz</title>
 </head>
 
-<body>
-    <!-- header section -->
-    <header>
-        <a id="high-score">View High Scores</a>
-        <div class="timer">Time: <span id="time-remaining"></span></div>
-    </header>
-    <main>
-        <!-- start page -->
-        <section class="start-page" id="start-page">
-            <h1 class="start-title">Coding Quiz Challenge</h1>
-            <p class="instructions">Try to answer the following code-related questions within the time limit. Keep in
-                mind that incorrect answers will penalize your score/time by five seconds!</p>
-            <button class="btn" id="start-btn">Start Quiz</button>
-        </section>
-        <!-- done page -->
-        <section id="all-done">
-            <h1 class="done-title">All done!</h1>
-            <p class="instructions score">Your final score is <span id="print-score"></span>.</p>
-            <form id="initals-form">
-                <label for="initals" class="initals">Enter initials:</label>
-                <input id="initals">
-                <button class="btn btn-submit">Submit</button>
-            </form>
-        </section>
-        <!-- high score page -->
-        <section id="high-score-page">
-            <h1 class="done-title">High Scores</h1>
-            <ul id="high-score-list"></ul>
-            <div class="buttons">
-                <button class="btn btn-submit" id="go-back-btn">Go Back</button>
-                <button class="btn btn-submit" id="clear-btn">Clear High Scores</button>
-            </div>            
-        </section>
-        <!-- quiz questions -->
-        <section id="game-screen"></section>
-    </main>
-    <script src="./assets/js/script.js"></script>
-</body>
 
-</html>
+<div class="quiz123" id="quiz55">
+  <div class="quiz-header">
+    <h1 id="timer">:60</h1>
+
+
+<div class="quiz-card" id="quiz">
+  
+    <div class="quiz-head">
+      <h2 id="question">Question Text</h2>
+
+      
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="first">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="second">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="third">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="forth">Answer</label>
+        </li>
+
+      </ul>
+    </div>
+
+    <button id="submit">Submit</button>
+
+    <script src="./test.js"></script>
+  </div>
