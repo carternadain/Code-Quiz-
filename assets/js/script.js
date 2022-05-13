@@ -34,8 +34,24 @@ const QuizQuiestion  = [
         d: "none of the above",
         correct: "b",
     },
-
-
+    
+    {
+        question: "Arrays in Javascript can be used to store ____.",
+        a: "booleans",
+        b: "other arrays",
+        c: "numbers and strings",
+        d: "none of the above",
+        correct: "b",
+    },
+    
+    {
+        question: "A very useful tool for used during development and debugging for printing content to the debugger is?",
+        a: "Javascript",
+        b: "terminal",
+        c: "for loops",
+        d: "console log",
+        correct: "d",
+        },
 ];
 
 
@@ -44,39 +60,42 @@ let currentQuiz = 0
 let scoreCard = 0
 const quiz= document.getElementById('quiz')
 const submitButton = document.getElementById('submit')
-const answerEls = document.querySelectorAll('.answer')
-const questionEl = document.getElementById('question')
+const answers = document.querySelectorAll('.answer')
+const question = document.getElementById('question')
 const first = document.getElementById('first')
 const second = document.getElementById('second')
 const third = document.getElementById('third')
 const forth = document.getElementById('forth')
-
+const five = document.getElementById('five')
+const sixth = document.getElementById('sixth')
 
 // this will start the quiz
 startQuiz()
 function startQuiz() {
 
-// function to display quiz questions
+// calling the deselect function 
 
     deselectAnswers()
 
     const currentQuizQuiestion = QuizQuiestion [currentQuiz]
 // html elements to display data
-    questionEl.innerText = currentQuizQuiestion .question
+
+    question.innerText = currentQuizQuiestion .question
     first.innerText = currentQuizQuiestion .a
     second.innerText = currentQuizQuiestion .b
     third.innerText = currentQuizQuiestion .c
     forth.innerText = currentQuizQuiestion .d
+    
 }
 // function that allows you to deselect options
 function deselectAnswers() {
-    answerEls.forEach(answerEl => answerEl.checked = false)
+    answers.forEach(answerEl => answerEl.checked = false)
 }
 
 // returns the answer once selected 
 function getSelected() {
     let answer
-    answerEls.forEach(answerEl => {
+    answers.forEach(answerEl => {
         if(answerEl.checked) {
             answer = answerEl.id
         }
