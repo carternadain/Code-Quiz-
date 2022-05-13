@@ -103,6 +103,7 @@ function getSelected() {
     return answer
 }
 
+// 60sec timer when you open browser 
 window.onload = function() {
     var seconds = 60;
     setInterval(function() {
